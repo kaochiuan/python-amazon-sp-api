@@ -13,6 +13,7 @@ from .feeds.feeds import Feeds
 from .feeds.feeds import Feeds as FeedsV2
 
 from .inventories.inventories import Inventories
+from .participations.participations import Participations
 from .fulfillment_inbound.fulfillment_inbound import FulfillmentInbound
 from .upload.upload import Upload
 from .messaging.messaging import Messaging
@@ -20,7 +21,6 @@ from .merchant_fulfillment.merchant_fulfillment import MerchantFulfillment
 
 ##### DO NOT DELETE ########## INSERT IMPORT HERE #######
 from .listings_restrictions.listings_restrictions import ListingsRestrictions
-
 
 
 from .messaging.messaging import Messaging
@@ -68,7 +68,6 @@ from .aplus_content.aplus_content import AplusContent
 from .fulfillment_outbound.fulfillment_outbound import FulfillmentOutbound
 
 
-
 __all__ = [
     "Sales",
     "Products",
@@ -81,6 +80,7 @@ __all__ = [
     "Catalog",
     "Feeds",
     "Inventories",
+    "Participations",
     "FulfillmentInbound",
     'Upload',
     "Messaging",
